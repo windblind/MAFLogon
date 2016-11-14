@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>VERSION</string>
+			<key>Key</key>
+			<string>MAFVersionLabelKey</string>
+			<key>DefaultValue</key>
+			<string>0.1.1</string>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>DATE</string>
+			<key>Key</key>
+			<string>MAFVersionDateLabelKey</string>
+			<key>DefaultValue</key>
+			<string>Fri June 21 09:25:12 CEST 2011</string>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Localizable</string>
+</dict>
+</plist>

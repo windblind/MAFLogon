@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Application specific settings</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Favourite URL</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Key</key>
+			<string>MAFASFavouriteUrlKey</string>
+			<key>DefaultValue</key>
+			<string>sybase.corp</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Network status</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Key</key>
+			<string>MAFASNetworkStatusKey</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Size</string>
+			<key>Type</key>
+			<string>PSSliderSpecifier</string>
+			<key>Key</key>
+			<string>MAFASSizeSliderKey</string>
+			<key>DefaultValue</key>
+			<integer>30</integer>
+			<key>MinimumValue</key>
+			<integer>0</integer>
+			<key>MaximumValue</key>
+			<integer>100</integer>
+			<key>MinimumValueImage</key>
+			<string>minus.png</string>
+			<key>MaximumValueImage</key>
+			<string>plus.png</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Time Duration</string>
+			<key>Type</key>
+			<string>PSSliderWithTitleSpecifier</string>
+			<key>Key</key>
+			<string>MAFASTimeSliderWithTitleKey</string>
+			<key>DefaultValue</key>
+			<integer>30</integer>
+			<key>MinimumValue</key>
+			<integer>0</integer>
+			<key>MaximumValue</key>
+			<integer>100</integer>
+			<key>MinimumValueImage</key>
+			<string>minus.png</string>
+			<key>MaximumValueImage</key>
+			<string>plus.png</string>
+			<key>Measure</key>
+			<string>min</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSChildPaneSpecifier</string>
+			<key>Title</key>
+			<string>LOGON_SETTINGS</string>
+			<key>File</key>
+			<string>MAFLogonSettings.sub</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Something Custom</string>
+			<key>Type</key>
+			<string>ASCustomViewSpecifier</string>
+			<key>Key</key>
+			<string>MAFASSomethingCustomKey</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>ASMailComposeSpecifier</string>
+			<key>Title</key>
+			<string>Send mail</string>
+			<key>Key</key>
+			<string>MAFASSendMailKey</string>
+			<key>ASMailComposeToRecipents</key>
+			<array>
+				<string>support@sap.com</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>ASOpenURLSpecifier</string>
+			<key>Title</key>
+			<string>Go to SAP</string>
+			<key>Key</key>
+			<string>MAFASGoToSapUrlKey</string>
+			<key>File</key>
+			<string>http://www.sap.com</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>ASButtonSpecifier</string>
+			<key>Title</key>
+			<string>Sample Button</string>
+			<key>Key</key>
+			<string>MAFASSampleButtonKey</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Localizable</string>
+</dict>
+</plist>

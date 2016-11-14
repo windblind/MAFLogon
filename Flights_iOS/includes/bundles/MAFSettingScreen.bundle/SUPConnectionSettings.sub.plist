@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>SUP_CONNECTION_INFO</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>SERVER_NAME</string>
+			<key>Key</key>
+			<string>SUPServerNameKey</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>SERVER_PORT</string>
+			<key>Key</key>
+			<string>SUPServerPortKey</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>COMPANY_ID</string>
+			<key>Key</key>
+			<string>SUPCompanyIDKey</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>USERNAME</string>
+			<key>Key</key>
+			<string>SUPUserNameKey</string>
+			<key>Type</key>
+			<string>PSUsernameTextFieldSpecifier</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>ACTIVATION_CODE</string>
+			<key>Key</key>
+			<string>SUPActivationCodeKey</string>
+			<key>Type</key>
+			<string>PSPasswordTextFieldSpecifier</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>URL_PREFIX</string>
+			<key>Key</key>
+			<string>SUPUrlPrefixKey</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Localizable</string>
+</dict>
+</plist>
