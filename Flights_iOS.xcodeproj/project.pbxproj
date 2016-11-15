@@ -7,14 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DECE0601DD5BBDF003CF86B /* SMPSDK in Resources */ = {isa = PBXBuildFile; fileRef = 0DECE05F1DD5BBDF003CF86B /* SMPSDK */; };
 		1DB721F917A8694B00F956F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB721F817A8694B00F956F7 /* UIKit.framework */; };
 		1DB721FB17A8694B00F956F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB721FA17A8694B00F956F7 /* Foundation.framework */; };
 		1DB721FD17A8694B00F956F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB721FC17A8694B00F956F7 /* CoreGraphics.framework */; };
 		1DB7222517A86BC100F956F7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB7221B17A86BC100F956F7 /* CFNetwork.framework */; };
 		1DB7222617A86BC100F956F7 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB7221C17A86BC100F956F7 /* CoreData.framework */; };
-		1DB7222717A86BC100F956F7 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB7221D17A86BC100F956F7 /* libsqlite3.dylib */; };
-		1DB7222917A86BC100F956F7 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB7221F17A86BC100F956F7 /* libz.dylib */; };
 		1DB7222A17A86BC100F956F7 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB7222017A86BC100F956F7 /* MessageUI.framework */; };
 		1DB7222B17A86BC100F956F7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB7222117A86BC100F956F7 /* MobileCoreServices.framework */; };
 		1DB7222C17A86BC100F956F7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB7222217A86BC100F956F7 /* QuartzCore.framework */; };
@@ -22,7 +19,49 @@
 		1DB7222E17A86BC100F956F7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB7222417A86BC100F956F7 /* SystemConfiguration.framework */; };
 		1DB723D517B1720C00F956F7 /* default_icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB723D417B1720C00F956F7 /* default_icon-57.png */; };
 		1DB723D717B1721400F956F7 /* default_icon-57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DB723D617B1721300F956F7 /* default_icon-57@2x.png */; };
-		F81422381993508400157048 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F81422371993508400157048 /* libstdc++.6.0.9.dylib */; };
+		9FF0E27A1DDAE99700B9398B /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2791DDAE99700B9398B /* libstdc++.6.0.9.tbd */; };
+		9FF0E27C1DDAE9AB00B9398B /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E27B1DDAE9AB00B9398B /* libc++.tbd */; };
+		9FF0E27E1DDAE9B300B9398B /* libc.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E27D1DDAE9B300B9398B /* libc.tbd */; };
+		9FF0E2801DDAE9C300B9398B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E27F1DDAE9C300B9398B /* libsqlite3.tbd */; };
+		9FF0E2821DDAE9D100B9398B /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2811DDAE9D100B9398B /* libstdc++.tbd */; };
+		9FF0E2841DDAE9D900B9398B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2831DDAE9D900B9398B /* libz.tbd */; };
+		9FF0E28B1DDAEC6700B9398B /* libMAFLogonManagerNG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2851DDAEC6700B9398B /* libMAFLogonManagerNG.a */; };
+		9FF0E28C1DDAEC6700B9398B /* libMAFLogonUING.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2861DDAEC6700B9398B /* libMAFLogonUING.a */; };
+		9FF0E28D1DDAEC6700B9398B /* libMAFLogViewer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2871DDAEC6700B9398B /* libMAFLogViewer.a */; };
+		9FF0E28E1DDAEC6700B9398B /* libMAFSettingScreen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2881DDAEC6700B9398B /* libMAFSettingScreen.a */; };
+		9FF0E28F1DDAEC6700B9398B /* libMAFUIComponents.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2891DDAEC6700B9398B /* libMAFUIComponents.a */; };
+		9FF0E2901DDAEC6700B9398B /* libODataAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E28A1DDAEC6700B9398B /* libODataAPI.a */; };
+		9FF0E2B01DDAEDEE00B9398B /* libAfariaSLL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2911DDAEDEE00B9398B /* libAfariaSLL.a */; };
+		9FF0E2B11DDAEDEE00B9398B /* libCache.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2921DDAEDEE00B9398B /* libCache.a */; };
+		9FF0E2B21DDAEDEE00B9398B /* libClientHubSLL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2931DDAEDEE00B9398B /* libClientHubSLL.a */; };
+		9FF0E2B31DDAEDEE00B9398B /* libClientLog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2941DDAEDEE00B9398B /* libClientLog.a */; };
+		9FF0E2B41DDAEDEE00B9398B /* libConnectivity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2951DDAEDEE00B9398B /* libConnectivity.a */; };
+		9FF0E2B51DDAEDEE00B9398B /* libCoreServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2961DDAEDEE00B9398B /* libCoreServices.a */; };
+		9FF0E2B61DDAEDEE00B9398B /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2971DDAEDEE00B9398B /* libcrypto.a */; };
+		9FF0E2B71DDAEDEE00B9398B /* libDatavault.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2981DDAEDEE00B9398B /* libDatavault.a */; };
+		9FF0E2B81DDAEDEE00B9398B /* libE2ETrace.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2991DDAEDEE00B9398B /* libE2ETrace.a */; };
+		9FF0E2B91DDAEDEE00B9398B /* libE2ETrace2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E29A1DDAEDEE00B9398B /* libE2ETrace2.a */; };
+		9FF0E2BA1DDAEDEE00B9398B /* libHttpConvAuthFlows.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E29B1DDAEDEE00B9398B /* libHttpConvAuthFlows.a */; };
+		9FF0E2BB1DDAEDEE00B9398B /* libHttpConversation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E29C1DDAEDEE00B9398B /* libHttpConversation.a */; };
+		9FF0E2BC1DDAEDEE00B9398B /* libLogger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E29D1DDAEDEE00B9398B /* libLogger.a */; };
+		9FF0E2BD1DDAEDEE00B9398B /* libMAFFormatters.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E29E1DDAEDEE00B9398B /* libMAFFormatters.a */; };
+		9FF0E2BE1DDAEDEE00B9398B /* libMAFLogger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E29F1DDAEDEE00B9398B /* libMAFLogger.a */; };
+		9FF0E2BF1DDAEDEE00B9398B /* libMAFLogonManagerNG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2A01DDAEDEE00B9398B /* libMAFLogonManagerNG.a */; };
+		9FF0E2C01DDAEDEE00B9398B /* libMAFLogonUING.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2A11DDAEDEE00B9398B /* libMAFLogonUING.a */; };
+		9FF0E2C11DDAEDEE00B9398B /* libMAFUIHelper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2A21DDAEDEE00B9398B /* libMAFUIHelper.a */; };
+		9FF0E2C21DDAEDEE00B9398B /* libMAFZipHelper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2A31DDAEDEE00B9398B /* libMAFZipHelper.a */; };
+		9FF0E2C31DDAEDEE00B9398B /* libMobilePlace.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2A41DDAEDEE00B9398B /* libMobilePlace.a */; };
+		9FF0E2C41DDAEDEE00B9398B /* libODataAPI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2A51DDAEDEE00B9398B /* libODataAPI.a */; };
+		9FF0E2C51DDAEDEE00B9398B /* libODataOffline.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2A61DDAEDEE00B9398B /* libODataOffline.a */; };
+		9FF0E2C61DDAEDEE00B9398B /* libODataOnline.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2A71DDAEDEE00B9398B /* libODataOnline.a */; };
+		9FF0E2C71DDAEDEE00B9398B /* libParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2A81DDAEDEE00B9398B /* libParser.a */; };
+		9FF0E2C81DDAEDEE00B9398B /* libPerformanceLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2A91DDAEDEE00B9398B /* libPerformanceLib.a */; };
+		9FF0E2C91DDAEDEE00B9398B /* libRequest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2AA1DDAEDEE00B9398B /* libRequest.a */; };
+		9FF0E2CA1DDAEDEE00B9398B /* libsqlcipher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2AB1DDAEDEE00B9398B /* libsqlcipher.a */; };
+		9FF0E2CB1DDAEDEE00B9398B /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2AC1DDAEDEE00B9398B /* libssl.a */; };
+		9FF0E2CC1DDAEDEE00B9398B /* libSupportability.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2AD1DDAEDEE00B9398B /* libSupportability.a */; };
+		9FF0E2CD1DDAEDEE00B9398B /* libUsage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2AE1DDAEDEE00B9398B /* libUsage.a */; };
+		9FF0E2CE1DDAEDEE00B9398B /* libXScriptParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2AF1DDAEDEE00B9398B /* libXScriptParser.a */; };
 		F87F0BDA19AB183B0011A402 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F87F09B319AB183B0011A402 /* AppDelegate.m */; };
 		F87F0BDB19AB183B0011A402 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F87F09B419AB183B0011A402 /* Default-568h@2x.png */; };
 		F87F0BDC19AB183B0011A402 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F87F09B519AB183B0011A402 /* Default.png */; };
@@ -36,21 +75,15 @@
 		F87F0C3C19AB183C0011A402 /* ConnectivitySettings.m in Sources */ = {isa = PBXBuildFile; fileRef = F87F0BD419AB183B0011A402 /* ConnectivitySettings.m */; };
 		F87F0C3D19AB183C0011A402 /* SettingsUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = F87F0BD719AB183B0011A402 /* SettingsUtilities.m */; };
 		F87F0C3E19AB183C0011A402 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = F87F0BD919AB183B0011A402 /* Utilities.m */; };
-		F8CA2CE91982323E0002308D /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CA2CE71982323E0002308D /* libc++.dylib */; };
-		F8CA2CEA1982323E0002308D /* libc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CA2CE81982323E0002308D /* libc.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0DECE05F1DD5BBDF003CF86B /* SMPSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SMPSDK; path = ../../SMPSDK; sourceTree = "<group>"; };
 		1DB721F517A8694B00F956F7 /* Flights_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flights_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DB721F817A8694B00F956F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1DB721FA17A8694B00F956F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1DB721FC17A8694B00F956F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		1DB7221B17A86BC100F956F7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		1DB7221C17A86BC100F956F7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		1DB7221D17A86BC100F956F7 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
-		1DB7221E17A86BC100F956F7 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
-		1DB7221F17A86BC100F956F7 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		1DB7222017A86BC100F956F7 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		1DB7222117A86BC100F956F7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		1DB7222217A86BC100F956F7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -58,7 +91,49 @@
 		1DB7222417A86BC100F956F7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		1DB723D417B1720C00F956F7 /* default_icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default_icon-57.png"; sourceTree = "<group>"; };
 		1DB723D617B1721300F956F7 /* default_icon-57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default_icon-57@2x.png"; sourceTree = "<group>"; };
-		F81422371993508400157048 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
+		9FF0E2791DDAE99700B9398B /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		9FF0E27B1DDAE9AB00B9398B /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		9FF0E27D1DDAE9B300B9398B /* libc.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libc.tbd; path = usr/lib/libc.tbd; sourceTree = SDKROOT; };
+		9FF0E27F1DDAE9C300B9398B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		9FF0E2811DDAE9D100B9398B /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		9FF0E2831DDAE9D900B9398B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		9FF0E2851DDAEC6700B9398B /* libMAFLogonManagerNG.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMAFLogonManagerNG.a; path = "Flights_iOS/libraries/Debug-universal/libMAFLogonManagerNG.a"; sourceTree = "<group>"; };
+		9FF0E2861DDAEC6700B9398B /* libMAFLogonUING.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMAFLogonUING.a; path = "Flights_iOS/libraries/Debug-universal/libMAFLogonUING.a"; sourceTree = "<group>"; };
+		9FF0E2871DDAEC6700B9398B /* libMAFLogViewer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMAFLogViewer.a; path = "Flights_iOS/libraries/Debug-universal/libMAFLogViewer.a"; sourceTree = "<group>"; };
+		9FF0E2881DDAEC6700B9398B /* libMAFSettingScreen.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMAFSettingScreen.a; path = "Flights_iOS/libraries/Debug-universal/libMAFSettingScreen.a"; sourceTree = "<group>"; };
+		9FF0E2891DDAEC6700B9398B /* libMAFUIComponents.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMAFUIComponents.a; path = "Flights_iOS/libraries/Debug-universal/libMAFUIComponents.a"; sourceTree = "<group>"; };
+		9FF0E28A1DDAEC6700B9398B /* libODataAPI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libODataAPI.a; path = "Flights_iOS/libraries/Debug-universal/libODataAPI.a"; sourceTree = "<group>"; };
+		9FF0E2911DDAEDEE00B9398B /* libAfariaSLL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAfariaSLL.a; path = "libraries/Debug-universal/libAfariaSLL.a"; sourceTree = "<group>"; };
+		9FF0E2921DDAEDEE00B9398B /* libCache.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCache.a; path = "libraries/Debug-universal/libCache.a"; sourceTree = "<group>"; };
+		9FF0E2931DDAEDEE00B9398B /* libClientHubSLL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libClientHubSLL.a; path = "libraries/Debug-universal/libClientHubSLL.a"; sourceTree = "<group>"; };
+		9FF0E2941DDAEDEE00B9398B /* libClientLog.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libClientLog.a; path = "libraries/Debug-universal/libClientLog.a"; sourceTree = "<group>"; };
+		9FF0E2951DDAEDEE00B9398B /* libConnectivity.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libConnectivity.a; path = "libraries/Debug-universal/libConnectivity.a"; sourceTree = "<group>"; };
+		9FF0E2961DDAEDEE00B9398B /* libCoreServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCoreServices.a; path = "libraries/Debug-universal/libCoreServices.a"; sourceTree = "<group>"; };
+		9FF0E2971DDAEDEE00B9398B /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = "libraries/Debug-universal/libcrypto.a"; sourceTree = "<group>"; };
+		9FF0E2981DDAEDEE00B9398B /* libDatavault.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libDatavault.a; path = "libraries/Debug-universal/libDatavault.a"; sourceTree = "<group>"; };
+		9FF0E2991DDAEDEE00B9398B /* libE2ETrace.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libE2ETrace.a; path = "libraries/Debug-universal/libE2ETrace.a"; sourceTree = "<group>"; };
+		9FF0E29A1DDAEDEE00B9398B /* libE2ETrace2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libE2ETrace2.a; path = "libraries/Debug-universal/libE2ETrace2.a"; sourceTree = "<group>"; };
+		9FF0E29B1DDAEDEE00B9398B /* libHttpConvAuthFlows.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHttpConvAuthFlows.a; path = "libraries/Debug-universal/libHttpConvAuthFlows.a"; sourceTree = "<group>"; };
+		9FF0E29C1DDAEDEE00B9398B /* libHttpConversation.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHttpConversation.a; path = "libraries/Debug-universal/libHttpConversation.a"; sourceTree = "<group>"; };
+		9FF0E29D1DDAEDEE00B9398B /* libLogger.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLogger.a; path = "libraries/Debug-universal/libLogger.a"; sourceTree = "<group>"; };
+		9FF0E29E1DDAEDEE00B9398B /* libMAFFormatters.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMAFFormatters.a; path = "libraries/Debug-universal/libMAFFormatters.a"; sourceTree = "<group>"; };
+		9FF0E29F1DDAEDEE00B9398B /* libMAFLogger.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMAFLogger.a; path = "libraries/Debug-universal/libMAFLogger.a"; sourceTree = "<group>"; };
+		9FF0E2A01DDAEDEE00B9398B /* libMAFLogonManagerNG.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMAFLogonManagerNG.a; path = "libraries/Debug-universal/libMAFLogonManagerNG.a"; sourceTree = "<group>"; };
+		9FF0E2A11DDAEDEE00B9398B /* libMAFLogonUING.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMAFLogonUING.a; path = "libraries/Debug-universal/libMAFLogonUING.a"; sourceTree = "<group>"; };
+		9FF0E2A21DDAEDEE00B9398B /* libMAFUIHelper.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMAFUIHelper.a; path = "libraries/Debug-universal/libMAFUIHelper.a"; sourceTree = "<group>"; };
+		9FF0E2A31DDAEDEE00B9398B /* libMAFZipHelper.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMAFZipHelper.a; path = "libraries/Debug-universal/libMAFZipHelper.a"; sourceTree = "<group>"; };
+		9FF0E2A41DDAEDEE00B9398B /* libMobilePlace.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMobilePlace.a; path = "libraries/Debug-universal/libMobilePlace.a"; sourceTree = "<group>"; };
+		9FF0E2A51DDAEDEE00B9398B /* libODataAPI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libODataAPI.a; path = "libraries/Debug-universal/libODataAPI.a"; sourceTree = "<group>"; };
+		9FF0E2A61DDAEDEE00B9398B /* libODataOffline.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libODataOffline.a; path = "libraries/Debug-universal/libODataOffline.a"; sourceTree = "<group>"; };
+		9FF0E2A71DDAEDEE00B9398B /* libODataOnline.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libODataOnline.a; path = "libraries/Debug-universal/libODataOnline.a"; sourceTree = "<group>"; };
+		9FF0E2A81DDAEDEE00B9398B /* libParser.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libParser.a; path = "libraries/Debug-universal/libParser.a"; sourceTree = "<group>"; };
+		9FF0E2A91DDAEDEE00B9398B /* libPerformanceLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPerformanceLib.a; path = "libraries/Debug-universal/libPerformanceLib.a"; sourceTree = "<group>"; };
+		9FF0E2AA1DDAEDEE00B9398B /* libRequest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRequest.a; path = "libraries/Debug-universal/libRequest.a"; sourceTree = "<group>"; };
+		9FF0E2AB1DDAEDEE00B9398B /* libsqlcipher.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsqlcipher.a; path = "libraries/Debug-universal/libsqlcipher.a"; sourceTree = "<group>"; };
+		9FF0E2AC1DDAEDEE00B9398B /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = "libraries/Debug-universal/libssl.a"; sourceTree = "<group>"; };
+		9FF0E2AD1DDAEDEE00B9398B /* libSupportability.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSupportability.a; path = "libraries/Debug-universal/libSupportability.a"; sourceTree = "<group>"; };
+		9FF0E2AE1DDAEDEE00B9398B /* libUsage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libUsage.a; path = "libraries/Debug-universal/libUsage.a"; sourceTree = "<group>"; };
+		9FF0E2AF1DDAEDEE00B9398B /* libXScriptParser.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXScriptParser.a; path = "libraries/Debug-universal/libXScriptParser.a"; sourceTree = "<group>"; };
 		F87F09B219AB183B0011A402 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F87F09B319AB183B0011A402 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F87F09B419AB183B0011A402 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -81,8 +156,6 @@
 		F87F0BD719AB183B0011A402 /* SettingsUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsUtilities.m; sourceTree = "<group>"; };
 		F87F0BD819AB183B0011A402 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
 		F87F0BD919AB183B0011A402 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
-		F8CA2CE71982323E0002308D /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
-		F8CA2CE81982323E0002308D /* libc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libc.dylib; path = usr/lib/libc.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,13 +163,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F81422381993508400157048 /* libstdc++.6.0.9.dylib in Frameworks */,
-				F8CA2CE91982323E0002308D /* libc++.dylib in Frameworks */,
-				F8CA2CEA1982323E0002308D /* libc.dylib in Frameworks */,
-				1DB7222917A86BC100F956F7 /* libz.dylib in Frameworks */,
+				9FF0E2B01DDAEDEE00B9398B /* libAfariaSLL.a in Frameworks */,
+				9FF0E2B11DDAEDEE00B9398B /* libCache.a in Frameworks */,
+				9FF0E2B21DDAEDEE00B9398B /* libClientHubSLL.a in Frameworks */,
+				9FF0E2B31DDAEDEE00B9398B /* libClientLog.a in Frameworks */,
+				9FF0E2B41DDAEDEE00B9398B /* libConnectivity.a in Frameworks */,
+				9FF0E2B51DDAEDEE00B9398B /* libCoreServices.a in Frameworks */,
+				9FF0E2B61DDAEDEE00B9398B /* libcrypto.a in Frameworks */,
+				9FF0E2B71DDAEDEE00B9398B /* libDatavault.a in Frameworks */,
+				9FF0E2B81DDAEDEE00B9398B /* libE2ETrace.a in Frameworks */,
+				9FF0E2B91DDAEDEE00B9398B /* libE2ETrace2.a in Frameworks */,
+				9FF0E2BA1DDAEDEE00B9398B /* libHttpConvAuthFlows.a in Frameworks */,
+				9FF0E2BB1DDAEDEE00B9398B /* libHttpConversation.a in Frameworks */,
+				9FF0E2BC1DDAEDEE00B9398B /* libLogger.a in Frameworks */,
+				9FF0E2BD1DDAEDEE00B9398B /* libMAFFormatters.a in Frameworks */,
+				9FF0E2BE1DDAEDEE00B9398B /* libMAFLogger.a in Frameworks */,
+				9FF0E2BF1DDAEDEE00B9398B /* libMAFLogonManagerNG.a in Frameworks */,
+				9FF0E2C01DDAEDEE00B9398B /* libMAFLogonUING.a in Frameworks */,
+				9FF0E2C11DDAEDEE00B9398B /* libMAFUIHelper.a in Frameworks */,
+				9FF0E2C21DDAEDEE00B9398B /* libMAFZipHelper.a in Frameworks */,
+				9FF0E2C31DDAEDEE00B9398B /* libMobilePlace.a in Frameworks */,
+				9FF0E2C41DDAEDEE00B9398B /* libODataAPI.a in Frameworks */,
+				9FF0E2C51DDAEDEE00B9398B /* libODataOffline.a in Frameworks */,
+				9FF0E2C61DDAEDEE00B9398B /* libODataOnline.a in Frameworks */,
+				9FF0E2C71DDAEDEE00B9398B /* libParser.a in Frameworks */,
+				9FF0E2C81DDAEDEE00B9398B /* libPerformanceLib.a in Frameworks */,
+				9FF0E2C91DDAEDEE00B9398B /* libRequest.a in Frameworks */,
+				9FF0E2CA1DDAEDEE00B9398B /* libsqlcipher.a in Frameworks */,
+				9FF0E2CB1DDAEDEE00B9398B /* libssl.a in Frameworks */,
+				9FF0E2CC1DDAEDEE00B9398B /* libSupportability.a in Frameworks */,
+				9FF0E2CD1DDAEDEE00B9398B /* libUsage.a in Frameworks */,
+				9FF0E2CE1DDAEDEE00B9398B /* libXScriptParser.a in Frameworks */,
+				9FF0E28B1DDAEC6700B9398B /* libMAFLogonManagerNG.a in Frameworks */,
+				9FF0E28C1DDAEC6700B9398B /* libMAFLogonUING.a in Frameworks */,
+				9FF0E28D1DDAEC6700B9398B /* libMAFLogViewer.a in Frameworks */,
+				9FF0E28E1DDAEC6700B9398B /* libMAFSettingScreen.a in Frameworks */,
+				9FF0E28F1DDAEC6700B9398B /* libMAFUIComponents.a in Frameworks */,
+				9FF0E2901DDAEC6700B9398B /* libODataAPI.a in Frameworks */,
+				9FF0E2841DDAE9D900B9398B /* libz.tbd in Frameworks */,
+				9FF0E2821DDAE9D100B9398B /* libstdc++.tbd in Frameworks */,
+				9FF0E2801DDAE9C300B9398B /* libsqlite3.tbd in Frameworks */,
+				9FF0E27E1DDAE9B300B9398B /* libc.tbd in Frameworks */,
+				9FF0E27C1DDAE9AB00B9398B /* libc++.tbd in Frameworks */,
+				9FF0E27A1DDAE99700B9398B /* libstdc++.6.0.9.tbd in Frameworks */,
 				1DB7222517A86BC100F956F7 /* CFNetwork.framework in Frameworks */,
 				1DB7222617A86BC100F956F7 /* CoreData.framework in Frameworks */,
-				1DB7222717A86BC100F956F7 /* libsqlite3.dylib in Frameworks */,
 				1DB7222A17A86BC100F956F7 /* MessageUI.framework in Frameworks */,
 				1DB7222B17A86BC100F956F7 /* MobileCoreServices.framework in Frameworks */,
 				1DB7222C17A86BC100F956F7 /* QuartzCore.framework in Frameworks */,
@@ -119,7 +230,6 @@
 				F87F09B119AB183B0011A402 /* Flights_iOS */,
 				1DB721F717A8694B00F956F7 /* Frameworks */,
 				1DB721F617A8694B00F956F7 /* Products */,
-				0DECE05F1DD5BBDF003CF86B /* SMPSDK */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,14 +244,51 @@
 		1DB721F717A8694B00F956F7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F81422371993508400157048 /* libstdc++.6.0.9.dylib */,
-				F8CA2CE71982323E0002308D /* libc++.dylib */,
-				F8CA2CE81982323E0002308D /* libc.dylib */,
+				9FF0E2911DDAEDEE00B9398B /* libAfariaSLL.a */,
+				9FF0E2921DDAEDEE00B9398B /* libCache.a */,
+				9FF0E2931DDAEDEE00B9398B /* libClientHubSLL.a */,
+				9FF0E2941DDAEDEE00B9398B /* libClientLog.a */,
+				9FF0E2951DDAEDEE00B9398B /* libConnectivity.a */,
+				9FF0E2961DDAEDEE00B9398B /* libCoreServices.a */,
+				9FF0E2971DDAEDEE00B9398B /* libcrypto.a */,
+				9FF0E2981DDAEDEE00B9398B /* libDatavault.a */,
+				9FF0E2991DDAEDEE00B9398B /* libE2ETrace.a */,
+				9FF0E29A1DDAEDEE00B9398B /* libE2ETrace2.a */,
+				9FF0E29B1DDAEDEE00B9398B /* libHttpConvAuthFlows.a */,
+				9FF0E29C1DDAEDEE00B9398B /* libHttpConversation.a */,
+				9FF0E29D1DDAEDEE00B9398B /* libLogger.a */,
+				9FF0E29E1DDAEDEE00B9398B /* libMAFFormatters.a */,
+				9FF0E29F1DDAEDEE00B9398B /* libMAFLogger.a */,
+				9FF0E2A01DDAEDEE00B9398B /* libMAFLogonManagerNG.a */,
+				9FF0E2A11DDAEDEE00B9398B /* libMAFLogonUING.a */,
+				9FF0E2A21DDAEDEE00B9398B /* libMAFUIHelper.a */,
+				9FF0E2A31DDAEDEE00B9398B /* libMAFZipHelper.a */,
+				9FF0E2A41DDAEDEE00B9398B /* libMobilePlace.a */,
+				9FF0E2A51DDAEDEE00B9398B /* libODataAPI.a */,
+				9FF0E2A61DDAEDEE00B9398B /* libODataOffline.a */,
+				9FF0E2A71DDAEDEE00B9398B /* libODataOnline.a */,
+				9FF0E2A81DDAEDEE00B9398B /* libParser.a */,
+				9FF0E2A91DDAEDEE00B9398B /* libPerformanceLib.a */,
+				9FF0E2AA1DDAEDEE00B9398B /* libRequest.a */,
+				9FF0E2AB1DDAEDEE00B9398B /* libsqlcipher.a */,
+				9FF0E2AC1DDAEDEE00B9398B /* libssl.a */,
+				9FF0E2AD1DDAEDEE00B9398B /* libSupportability.a */,
+				9FF0E2AE1DDAEDEE00B9398B /* libUsage.a */,
+				9FF0E2AF1DDAEDEE00B9398B /* libXScriptParser.a */,
+				9FF0E2851DDAEC6700B9398B /* libMAFLogonManagerNG.a */,
+				9FF0E2861DDAEC6700B9398B /* libMAFLogonUING.a */,
+				9FF0E2871DDAEC6700B9398B /* libMAFLogViewer.a */,
+				9FF0E2881DDAEC6700B9398B /* libMAFSettingScreen.a */,
+				9FF0E2891DDAEC6700B9398B /* libMAFUIComponents.a */,
+				9FF0E28A1DDAEC6700B9398B /* libODataAPI.a */,
+				9FF0E2831DDAE9D900B9398B /* libz.tbd */,
+				9FF0E2811DDAE9D100B9398B /* libstdc++.tbd */,
+				9FF0E27F1DDAE9C300B9398B /* libsqlite3.tbd */,
+				9FF0E27D1DDAE9B300B9398B /* libc.tbd */,
+				9FF0E27B1DDAE9AB00B9398B /* libc++.tbd */,
+				9FF0E2791DDAE99700B9398B /* libstdc++.6.0.9.tbd */,
 				1DB7221B17A86BC100F956F7 /* CFNetwork.framework */,
 				1DB7221C17A86BC100F956F7 /* CoreData.framework */,
-				1DB7221D17A86BC100F956F7 /* libsqlite3.dylib */,
-				1DB7221E17A86BC100F956F7 /* libstdc++.dylib */,
-				1DB7221F17A86BC100F956F7 /* libz.dylib */,
 				1DB7222017A86BC100F956F7 /* MessageUI.framework */,
 				1DB7222117A86BC100F956F7 /* MobileCoreServices.framework */,
 				1DB7222217A86BC100F956F7 /* QuartzCore.framework */,
@@ -235,6 +382,11 @@
 			attributes = {
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = RIG;
+				TargetAttributes = {
+					1DB721F417A8694B00F956F7 = {
+						ProvisioningStyle = Manual;
+					};
+				};
 			};
 			buildConfigurationList = 1DB721F017A8694B00F956F7 /* Build configuration list for PBXProject "Flights_iOS" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -266,7 +418,6 @@
 				F87F0BDE19AB183B0011A402 /* InfoPlist.strings in Resources */,
 				1DB723D517B1720C00F956F7 /* default_icon-57.png in Resources */,
 				1DB723D717B1721400F956F7 /* default_icon-57@2x.png in Resources */,
-				0DECE0601DD5BBDF003CF86B /* SMPSDK in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,25 +520,14 @@
 		1DB7221917A8694B00F956F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Flights_iOS/Flights_iOS-Prefix.pch";
-				HEADER_SEARCH_PATHS = (
-					"/Users/WeiHangChen/Documents/SMPLoginNative/sap_mobile_native_ios/05_UserOnboarding_MAF_Exercise_Xcode/Flights_iOS/includes/public/**/**",
-					"$(PROJEST_DIR)/includes/public/**/**",
-					/Users/WeiHangChen/Documents/SMPLoginNative/sap_mobile_native_ios/05_UserOnboarding_MAF_Exercise_Xcode/Flights_iOS/includes/public/MAFLogonUING,
-					/Users/WeiHangChen/Documents/SMPLoginNative/sap_mobile_native_ios/05_UserOnboarding_MAF_Exercise_Xcode/Flights_iOS/includes/public/MAFLogonManagerNG,
-					/Users/WeiHangChen/Documents/SMPLoginNative/sap_mobile_native_ios/05_UserOnboarding_MAF_Exercise_Xcode/Flights_iOS/includes/public/HttpConversation,
-					/Users/WeiHangChen/Documents/SMPLoginNative/sap_mobile_native_ios/05_UserOnboarding_MAF_Exercise_Xcode/Flights_iOS/includes/public/MAFUIComponents,
-				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/includes/public/**";
 				INFOPLIST_FILE = "Flights_iOS/Flights_iOS-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LIBRARY_SEARCH_PATHS = (
-					"<Multiple",
-					"values>",
-					"$(PROJECT_DIR)/libraries/$(BUILD_STYLE)-universal/*",
-				);
-				"LIBRARY_SEARCH_PATHS[arch=*]" = "";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/libraries/$(BUILD_STYLE)-universal";
 				New_Setting = "";
 				OTHER_LDFLAGS = (
 					"-ObjC",
@@ -403,20 +543,14 @@
 		1DB7221A17A8694B00F956F7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Flights_iOS/Flights_iOS-Prefix.pch";
-				HEADER_SEARCH_PATHS = (
-					"/Users/WeiHangChen/Documents/SMPLoginNative/sap_mobile_native_ios/05_UserOnboarding_MAF_Exercise_Xcode/Flights_iOS/includes/public/**/**",
-					"$(PROJEST_DIR)/includes/public/**/**",
-					/Users/WeiHangChen/Documents/SMPLoginNative/sap_mobile_native_ios/05_UserOnboarding_MAF_Exercise_Xcode/Flights_iOS/includes/public/MAFLogonUING,
-					/Users/WeiHangChen/Documents/SMPLoginNative/sap_mobile_native_ios/05_UserOnboarding_MAF_Exercise_Xcode/Flights_iOS/includes/public/MAFLogonManagerNG,
-					/Users/WeiHangChen/Documents/SMPLoginNative/sap_mobile_native_ios/05_UserOnboarding_MAF_Exercise_Xcode/Flights_iOS/includes/public/HttpConversation,
-					/Users/WeiHangChen/Documents/SMPLoginNative/sap_mobile_native_ios/05_UserOnboarding_MAF_Exercise_Xcode/Flights_iOS/includes/public/MAFUIComponents,
-				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/includes/public/**";
 				INFOPLIST_FILE = "Flights_iOS/Flights_iOS-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/libraries/$(BUILD_STYLE)-universal/*";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/libraries/$(BUILD_STYLE)-universal";
 				New_Setting = "";
 				OTHER_LDFLAGS = (
 					"-ObjC",

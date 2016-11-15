@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import "SettingsUtilities.h"
-#import "MAFUIStyleParser.h"
+//#import "MAFUIStyleParser.h"
 
 @implementation AppDelegate
 
@@ -24,7 +24,7 @@
 ////TODO: BEGIN (MAFLogonHandler #2)
 //    
     // Load the styles for the cutomizable controls, should be called before any MAF* control and MAFLogonUI created
-    [MAFUIStyleParser loadSAPDefaultStyle];
+//    [MAFUIStyleParser loadSAPDefaultStyle];
     self.logonHandler = [[FlightsMAFLogonHandler alloc] init];
 //
 ////TODO: END (MAFLogonHandler #2)
