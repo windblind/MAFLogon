@@ -62,6 +62,19 @@
 		9FF0E2CC1DDAEDEE00B9398B /* libSupportability.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2AD1DDAEDEE00B9398B /* libSupportability.a */; };
 		9FF0E2CD1DDAEDEE00B9398B /* libUsage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2AE1DDAEDEE00B9398B /* libUsage.a */; };
 		9FF0E2CE1DDAEDEE00B9398B /* libXScriptParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF0E2AF1DDAEDEE00B9398B /* libXScriptParser.a */; };
+		9FF0E3141DDC07ED00B9398B /* Cache.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9FF0E3071DDC07ED00B9398B /* Cache.bundle */; };
+		9FF0E3151DDC07ED00B9398B /* HttpConvAuthFlows.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9FF0E3081DDC07ED00B9398B /* HttpConvAuthFlows.bundle */; };
+		9FF0E3161DDC07ED00B9398B /* Logger.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9FF0E3091DDC07ED00B9398B /* Logger.bundle */; };
+		9FF0E3171DDC07ED00B9398B /* MAFCalendar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9FF0E30A1DDC07ED00B9398B /* MAFCalendar.bundle */; };
+		9FF0E3181DDC07ED00B9398B /* MAFFormatters.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9FF0E30B1DDC07ED00B9398B /* MAFFormatters.bundle */; };
+		9FF0E3191DDC07ED00B9398B /* MAFLocaleAwareControls.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9FF0E30C1DDC07ED00B9398B /* MAFLocaleAwareControls.bundle */; };
+		9FF0E31A1DDC07ED00B9398B /* MAFLogonManagerNG.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9FF0E30D1DDC07ED00B9398B /* MAFLogonManagerNG.bundle */; };
+		9FF0E31B1DDC07ED00B9398B /* MAFLogonUING.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9FF0E30E1DDC07ED00B9398B /* MAFLogonUING.bundle */; };
+		9FF0E31C1DDC07ED00B9398B /* MAFLogViewer.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9FF0E30F1DDC07ED00B9398B /* MAFLogViewer.bundle */; };
+		9FF0E31D1DDC07ED00B9398B /* MAFSettingScreen.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9FF0E3101DDC07ED00B9398B /* MAFSettingScreen.bundle */; };
+		9FF0E31E1DDC07ED00B9398B /* MAFTreeView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9FF0E3111DDC07ED00B9398B /* MAFTreeView.bundle */; };
+		9FF0E31F1DDC07ED00B9398B /* MAFUIComponents.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9FF0E3121DDC07ED00B9398B /* MAFUIComponents.bundle */; };
+		9FF0E3201DDC07ED00B9398B /* MobilePlace.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9FF0E3131DDC07ED00B9398B /* MobilePlace.bundle */; };
 		F87F0BDA19AB183B0011A402 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F87F09B319AB183B0011A402 /* AppDelegate.m */; };
 		F87F0BDB19AB183B0011A402 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F87F09B419AB183B0011A402 /* Default-568h@2x.png */; };
 		F87F0BDC19AB183B0011A402 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F87F09B519AB183B0011A402 /* Default.png */; };
@@ -134,6 +147,19 @@
 		9FF0E2AD1DDAEDEE00B9398B /* libSupportability.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSupportability.a; path = "libraries/Debug-universal/libSupportability.a"; sourceTree = "<group>"; };
 		9FF0E2AE1DDAEDEE00B9398B /* libUsage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libUsage.a; path = "libraries/Debug-universal/libUsage.a"; sourceTree = "<group>"; };
 		9FF0E2AF1DDAEDEE00B9398B /* libXScriptParser.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXScriptParser.a; path = "libraries/Debug-universal/libXScriptParser.a"; sourceTree = "<group>"; };
+		9FF0E3071DDC07ED00B9398B /* Cache.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Cache.bundle; sourceTree = "<group>"; };
+		9FF0E3081DDC07ED00B9398B /* HttpConvAuthFlows.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HttpConvAuthFlows.bundle; sourceTree = "<group>"; };
+		9FF0E3091DDC07ED00B9398B /* Logger.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Logger.bundle; sourceTree = "<group>"; };
+		9FF0E30A1DDC07ED00B9398B /* MAFCalendar.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MAFCalendar.bundle; sourceTree = "<group>"; };
+		9FF0E30B1DDC07ED00B9398B /* MAFFormatters.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MAFFormatters.bundle; sourceTree = "<group>"; };
+		9FF0E30C1DDC07ED00B9398B /* MAFLocaleAwareControls.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MAFLocaleAwareControls.bundle; sourceTree = "<group>"; };
+		9FF0E30D1DDC07ED00B9398B /* MAFLogonManagerNG.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MAFLogonManagerNG.bundle; sourceTree = "<group>"; };
+		9FF0E30E1DDC07ED00B9398B /* MAFLogonUING.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MAFLogonUING.bundle; sourceTree = "<group>"; };
+		9FF0E30F1DDC07ED00B9398B /* MAFLogViewer.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MAFLogViewer.bundle; sourceTree = "<group>"; };
+		9FF0E3101DDC07ED00B9398B /* MAFSettingScreen.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MAFSettingScreen.bundle; sourceTree = "<group>"; };
+		9FF0E3111DDC07ED00B9398B /* MAFTreeView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MAFTreeView.bundle; sourceTree = "<group>"; };
+		9FF0E3121DDC07ED00B9398B /* MAFUIComponents.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MAFUIComponents.bundle; sourceTree = "<group>"; };
+		9FF0E3131DDC07ED00B9398B /* MobilePlace.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MobilePlace.bundle; sourceTree = "<group>"; };
 		F87F09B219AB183B0011A402 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F87F09B319AB183B0011A402 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F87F09B419AB183B0011A402 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
@@ -230,6 +256,7 @@
 				F87F09B119AB183B0011A402 /* Flights_iOS */,
 				1DB721F717A8694B00F956F7 /* Frameworks */,
 				1DB721F617A8694B00F956F7 /* Products */,
+				9FF0E3061DDC07ED00B9398B /* bundles */,
 			);
 			sourceTree = "<group>";
 		};
@@ -299,6 +326,27 @@
 				1DB721FC17A8694B00F956F7 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9FF0E3061DDC07ED00B9398B /* bundles */ = {
+			isa = PBXGroup;
+			children = (
+				9FF0E3071DDC07ED00B9398B /* Cache.bundle */,
+				9FF0E3081DDC07ED00B9398B /* HttpConvAuthFlows.bundle */,
+				9FF0E3091DDC07ED00B9398B /* Logger.bundle */,
+				9FF0E30A1DDC07ED00B9398B /* MAFCalendar.bundle */,
+				9FF0E30B1DDC07ED00B9398B /* MAFFormatters.bundle */,
+				9FF0E30C1DDC07ED00B9398B /* MAFLocaleAwareControls.bundle */,
+				9FF0E30D1DDC07ED00B9398B /* MAFLogonManagerNG.bundle */,
+				9FF0E30E1DDC07ED00B9398B /* MAFLogonUING.bundle */,
+				9FF0E30F1DDC07ED00B9398B /* MAFLogViewer.bundle */,
+				9FF0E3101DDC07ED00B9398B /* MAFSettingScreen.bundle */,
+				9FF0E3111DDC07ED00B9398B /* MAFTreeView.bundle */,
+				9FF0E3121DDC07ED00B9398B /* MAFUIComponents.bundle */,
+				9FF0E3131DDC07ED00B9398B /* MobilePlace.bundle */,
+			);
+			name = bundles;
+			path = includes/bundles;
 			sourceTree = "<group>";
 		};
 		F87F09B119AB183B0011A402 /* Flights_iOS */ = {
@@ -410,14 +458,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FF0E3181DDC07ED00B9398B /* MAFFormatters.bundle in Resources */,
+				9FF0E31B1DDC07ED00B9398B /* MAFLogonUING.bundle in Resources */,
+				9FF0E3171DDC07ED00B9398B /* MAFCalendar.bundle in Resources */,
+				9FF0E3161DDC07ED00B9398B /* Logger.bundle in Resources */,
 				F87F0BDD19AB183B0011A402 /* Default@2x.png in Resources */,
 				F87F0C3B19AB183C0011A402 /* Settings.bundle in Resources */,
+				9FF0E3191DDC07ED00B9398B /* MAFLocaleAwareControls.bundle in Resources */,
+				9FF0E31D1DDC07ED00B9398B /* MAFSettingScreen.bundle in Resources */,
+				9FF0E3141DDC07ED00B9398B /* Cache.bundle in Resources */,
 				F87F0BDB19AB183B0011A402 /* Default-568h@2x.png in Resources */,
+				9FF0E31F1DDC07ED00B9398B /* MAFUIComponents.bundle in Resources */,
 				F87F0BDF19AB183B0011A402 /* MainStoryboard.storyboard in Resources */,
+				9FF0E3201DDC07ED00B9398B /* MobilePlace.bundle in Resources */,
+				9FF0E3151DDC07ED00B9398B /* HttpConvAuthFlows.bundle in Resources */,
 				F87F0BDC19AB183B0011A402 /* Default.png in Resources */,
+				9FF0E31A1DDC07ED00B9398B /* MAFLogonManagerNG.bundle in Resources */,
 				F87F0BDE19AB183B0011A402 /* InfoPlist.strings in Resources */,
 				1DB723D517B1720C00F956F7 /* default_icon-57.png in Resources */,
+				9FF0E31C1DDC07ED00B9398B /* MAFLogViewer.bundle in Resources */,
 				1DB723D717B1721400F956F7 /* default_icon-57@2x.png in Resources */,
+				9FF0E31E1DDC07ED00B9398B /* MAFTreeView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
